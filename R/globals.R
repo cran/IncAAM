@@ -1,0 +1,22 @@
+utils::globalVariables(c(
+  "FishID_actual",
+  "Inc_num_actual",
+  "Increment",
+  "n_obs",
+  "value",
+  "prob_crossed_by_inc",
+  "sd_prob_crossed",
+  "mean_prob_crossed",
+  "se_prob_crossed",
+  "pred_prob",
+  "Parameter",
+  "Value",
+  "n",
+  "Chain",
+  "bfmi",
+  "Index",
+  "posterior_mean",
+  "xint",
+  "line_colour",
+  "label"
+))

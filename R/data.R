@@ -1,0 +1,29 @@
+#' Example plaice otolith increment data
+#'
+#' A small example dataset containing otolith increment-width measurements
+#' from 28 plaice (*Pleuronectes platessa*) of both sexes. The dataset is
+#' provided for demonstrating the IncAAM workflow, including data filtering,
+#' preparation, and age-at-maturity modelling.
+#'
+#' @format A data frame with 347 rows and 7 variables:
+#' \describe{
+#'   \item{Species}{Species name.}
+#'   \item{FishID}{Unique fish identifier.}
+#'   \item{Sex}{Sex of the fish (`male` or `female`).}
+#'   \item{Axis}{Otolith axis used for increment measurements (`section`).}
+#'   \item{Inc_num}{Sequential increment number.}
+#'   \item{Inc_width_mm}{Width of the otolith increment in millimetres.}
+#'   \item{Fishlen_cm}{Fish length in centimetres.}
+#' }
+#'
+#' @details
+#' The dataset contains complete increment-width series for 28 individual
+#' fish and is intentionally composed of both males and females. In the
+#' example workflow, the data are first loaded with \code{data(plaice)} and
+#' subsequently filtered to retain female fish before fitting the
+#' age-at-maturity model.
+#'
+#' @source Example data prepared for the IncAAM package.
+#'
+#' @usage data(plaice)
+"plaice"

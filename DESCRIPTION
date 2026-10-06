@@ -1,0 +1,30 @@
+Package: IncAAM
+Type: Package
+Title: Bayesian Age-at-Maturity Analysis from Increment-Width Growth
+        Series
+Version: 1.8
+Authors@R: c(person("Steven", "Campana", email = "steven.e.campana@gmail.com", role = c("aut", "cre")),person("Szymon", "Smoliński", role = "aut"),person("Bryan", "Black", role = "aut"),person("John", "Morrongiello", role = "aut"))
+Description: Bayesian hierarchical nonlinear mixed-effects analysis for
+    estimating age at sexual maturity from annual increment-width growth
+    series. The method estimates age at maturity using tangent-ratio and
+    jerk approaches and provides a posterior threshold-crossing ogive
+    with an estimated A50. Methodological details and applications are described in
+    Campana, Smoliński, Morrongiello and Black (2026, in press).
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Imports: dplyr, tidyr, purrr, tibble, ggplot2, posterior, minpack.lm,
+        brms
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2026-09-14 09:36:01 UTC; ssmolinski
+Author: Steven Campana [aut, cre],
+  Szymon Smoliński [aut],
+  Bryan Black [aut],
+  John Morrongiello [aut]
+Maintainer: Steven Campana <steven.e.campana@gmail.com>
+Depends: R (>= 4.1.0)
+LazyData: true
+Repository: CRAN
+Date/Publication: 2026-10-06 07:30:22 UTC
